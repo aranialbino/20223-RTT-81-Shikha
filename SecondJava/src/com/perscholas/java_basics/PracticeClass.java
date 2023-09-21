@@ -1,5 +1,11 @@
 package com.perscholas.java_basics;
 
+import java.text.DecimalFormat;
+import java.util.ArrayList;
+import java.util.List;
+
+import coffeeshop.Product;
+
 public class PracticeClass {
 
 	public static void main(String[] args) {
@@ -29,20 +35,21 @@ public class PracticeClass {
 		System.out.println("results of w/e :" + results);
 		double y = 24.5;
 		double f = 3.0;
-		double result =  y / f;
-		
+		double result = y / f;
 
-		System.out.println("results of y/f;"+ result);
+		System.out.println("results of y/f;" + result);
 		// question 6
-		
+
 		double n = 24.5;
 		double fu = 3.0;
 		double ay = (int) n / fu;
+
+		System.out.println("results of n/fu;" + ay);
+
 		
 
-		System.out.println("results of n/fu;"+ ay);
-
-
 	}
+
+
 
 }
