@@ -3,7 +3,7 @@ package stringGlab;
 public class StringMethods {
 
 	public static void main(String[] args) {
-		// 1& 2 // TODO Auto-generated method stub
+		// // TODO Auto-generated method stub
 		String a = "HELLO";
 		String b = "java";
 		String c = "";

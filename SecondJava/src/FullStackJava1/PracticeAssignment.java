@@ -110,6 +110,9 @@ System.out.println("less than 10");
 			break;
 			default:
 				System.out.println(" Q:6\\t Out of range");
+				
+				//question 7
+				
 	
 		}
 		
