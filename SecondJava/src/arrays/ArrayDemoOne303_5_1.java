@@ -1,6 +1,6 @@
 package arrays;
 
-public class ArrayDemoOne303_6_1 {
+public class ArrayDemoOne303_5_1 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -24,6 +24,8 @@ public class ArrayDemoOne303_6_1 {
 		System.out.println("Using for Loop:");
 		for (int i = 0; i < age1.length; i++) {
 			System.out.println(age[i]);
+			
+			
 			//EnhancedForLoop 
 			String[] names = { "New York", "Dallas", "Las Vegas", "Florida" };
 	           for (String name1:	names ){
@@ -32,4 +34,4 @@ public class ArrayDemoOne303_6_1 {
 	           }
 	}
 
-}
+}}
