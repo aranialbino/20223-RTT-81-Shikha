@@ -1,6 +1,7 @@
 package practiceAssignment303_7_1;
 
 import java.util.Arrays;
+import java.util.Scanner;
 
 public class AssignmentOfArray {
 
@@ -72,8 +73,31 @@ public class AssignmentOfArray {
 			int k = num1[j];
 			if (j != middleIndex) {
 				System.out.println( k);
+				//Task 11: Write some Java code that asks the user how many favorite things they have. Based on their answer, you should create a String array of the correct size. Then ask the user to enter the things and store them in the array you created. Finally, print out the contents of the array.
+		
+				//Scanner scanner = new Scanner(System.in);
+				//System.out.println("how many favourite things? ");
+				//int numFavorites = scanner.nextInt();
+				 //scanner.nextInt();
+				 //String[]favorites = new String[7];
+			}			 
+			}			 
+						 
+						 
+						 
+						 
+						 //Task 8: Write a program that creates a String array of 5 elements and swaps the first element with the middle element
+						 //without creating a new array.
+				
+				String[] string = {"1", "2", "3", " 4" ,"5"};
+				System.out.println(" question 8");
+				 System.out.println(Arrays.toString(string));
+				  String temp = string[0];
+				 string [0]= string [2];
+				 string [2] = temp;
+				 System.out.println(Arrays.toString(string));
+
 			}
 		}
-	}
+	
 
-}
