@@ -1,5 +1,7 @@
 package stringGlab;
 
+import java.util.StringJoiner;
+
 public class StringMethods {
 
 	public static void main(String[] args) {
@@ -110,5 +112,36 @@ public class StringMethods {
 		String h = "java";
 		h = "very easy";
 		System.out.println(h);
+		StringJoiner joinNames = new StringJoiner("|", "(", ")"); 
+
+		joinNames.add("Java");
+		joinNames.add("Python");
+		joinNames.add("C Sharp");
+		joinNames.add("Javascript");
+				
+		System.out.println(joinNames);
+		StringJoiner joinNames1 = new StringJoiner(",", "[", "]");   /* passing comma(,) and square-brackets as delimiter */  
+		  // ----- Adding values to StringJoiner---  
+		        joinNames1.add("New York");  
+		        joinNames1.add("New Jersey");  
+		  
+		//----  Creating StringJoiner with :(colon) delimiter  
+		    StringJoiner joinNames2 = new StringJoiner(":", "[", "]");  /* passing colon(:) and square-brackets as delimiter  */  
+		 
+		 // ---Adding values to StringJoiner-----  
+		         joinNames2.add("Dallas");  
+		        joinNames2.add("Chicago");  
+		  // ---- Merging two StringJoiner  ----
+		        StringJoiner merge = joinNames1.merge(joinNames2);   
+		        System.out.println(merge);  
+		      //{Name:Tony:LastName,Strak}    this is it!  right here
+				StringJoiner sj1 = new StringJoiner(":", "{", "}");
+				StringJoiner sj2 = new StringJoiner(",", "[", "]");	
+				sj1.add("Name").add("Tony");
+				sj2.add("LastName").add("Stark");
+				System.out.println(sj1.merge(sj2).toString());
+			}
+		
+
 	}
-}
+
