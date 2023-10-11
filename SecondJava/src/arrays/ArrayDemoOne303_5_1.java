@@ -29,9 +29,10 @@ public class ArrayDemoOne303_5_1 {
 			//EnhancedForLoop 
 			String[] names = { "New York", "Dallas", "Las Vegas", "Florida" };
 	           for (String name1:	names ){
-	        	   System.out.println(" String names::+name1");
-	        	   
+	        	   System.out.println(" String names::"+ name1);
+	   
 	           }
+
 	}
 
 }}
