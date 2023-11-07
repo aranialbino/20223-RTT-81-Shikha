@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"com.hibernate.hibernate","l":"App"},{"p":"com.hibernate.hibernate","l":"AppTest"},{"p":"com.hibernate.util","l":"HibernateUtil"},{"p":"com.hibernate.model","l":"User"},{"p":"com.hibernate.controller","l":"UserService"}];updateSearchResults();

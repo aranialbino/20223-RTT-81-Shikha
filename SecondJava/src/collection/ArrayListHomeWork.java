@@ -62,7 +62,6 @@ public class ArrayListHomeWork {
 				
 				
 				//list with other collections
-			ArrayList <Integer> numbers = new ArrayList<Integer>(Arrays.asList(10,20,30,40));
 				
 				
 				
