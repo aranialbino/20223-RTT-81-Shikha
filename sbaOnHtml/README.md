@@ -26,3 +26,6 @@ Welcome to Kids Learning website. Learn and practice the Alphabates, Number for 
 ## Demo
 
 /index.html
+/alphabets.html
+/numbers.html
+
