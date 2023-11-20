@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../static/styles/styles.css">
+	<title>Alphabets</title>
+	<!-- examples of internal CSS-->
+	<style>
+		table {
+			border: 1px solid black;
+			align-items: center;
+			align-content: center;
+			box-align: center;
+			text-align: center;
+			width: 100%;
+		}
+
+		tr {
+			border: 1px solid black;
+			align-items: center;
+			align-content: center;
+			box-align: center;
+			text-align: center;
+			width: 100%;
+
+		}
+
+		td {
+			border: 1px solid black;
+			align: center;
+		}
+
+		img {
+			width: 100%;
+		}
+	</style>
+	<script language="JavaScript" src="../static/script/script.js">
+	</script>
+</head>
+
+<body>
+
+	<header>
+		<h1>Welcome to Kids Learning website</h1>
+	</header>
+	<!--use of form-->
+	<form id="myForm" action="numbers.html">
+		<span id="error_message" style="font: italic 25px bold  Georgia, serif;color: red;"></span>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="javascript:;" onclick="javascript:submitForm()">Alphabets</a></li>
+				<li><a href="numbers.html">Numbers</a></li>
+			</ul>
+		</nav>
+		<!-- examples of inline css-->
+		<div style="text-align: center;width: 100%;">
+			<img src=" ../images/aplha.png" />
+		</div>
+
+		<div style="vertical-align: auto;align-content: center; align-content: center;align-items: center;">
+			<table align="center">
+				<tr>
+					<th style="width: 33%;">Character</th>
+					<th style="width: 33%;">Word</th>
+					<th style="width: 33%;">Your Turn</th>
+				</tr>
+
+				<tr align="center">
+					<td class='center' style='font: 140px Arial, sans-serif;''>A</td>
+				<td align=' center'>
+						<img src='../images/A.png'>
+					</td>
+					<td>
+						<textarea id='A_input_text' rows='1' cols='2' style='font: 140px Arial, sans-serif;' required
+							onkeyup="checkLetterEntry('A_input_text','A')">
+                    </textarea>
+					</td>
+				</tr>
+
+
+				<tr align="center">
+					<td class='center' style='font: 140px Arial, sans-serif;''>B</td>
+				<td align=' center'>
+						<img src='../images/B.png'>
+					</td>
+					<td>
+						<textarea id='B_input_text' rows='1' cols='2' style='font: 140px Arial, sans-serif;' required
+							onkeyup="checkLetterEntry('B_input_text','B')">
+                    </textarea>
+					</td>
+				</tr>
+
+				<tr align="center">
+					<td class='center' style='font: 140px Arial, sans-serif;''>C</td>
+				<td align=' center'>
+						<img src='../images/C.png'>
+					</td>
+					<td>
+						<textarea id='C_input_text' rows='1' cols='2' style='font: 140px Arial, sans-serif;' required
+							onkeyup="checkLetterEntry('C_input_text','C')">
+                    </textarea>
+					</td>
+				</tr>
+
+				<tr align="center">
+					<td class='center' style='font: 140px Arial, sans-serif;''>D</td>
+				<td align=' center'>
+						<img src='../images/D.png'>
+					</td>
+					<td>
+						<textarea id='D_input_text' rows='1' cols='2' style='font: 140px Arial, sans-serif;' required
+							onkeyup="checkLetterEntry('D_input_text','D')">
+                    </textarea>
+					</td>
+				</tr>
+
+				<tr align="center">
+					<td class='center' style='font: 140px Arial, sans-serif;''>E</td>
+				<td align=' center'>
+						<img src='../images/E.png'>
+					</td>
+					<td>
+						<textarea id='E_input_text' rows='1' cols='2' style='font: 140px Arial, sans-serif;' required
+							onkeyup="checkLetterEntry('E_input_text','E')">
+                    </textarea>
+					</td>
+				</tr>
+
+				<tr align="center">
+					<td class='center' style='font: 140px Arial, sans-serif;''>F</td>
+				<td align=' center'>
+						<img src='../images/F.png'>
+					</td>
+					<td>
+						<textarea id='F_input_text' rows='1' cols='2' style='font: 140px Arial, sans-serif;' required
+							onkeyup="checkLetterEntry('F_input_text','F')">
+                    </textarea>
+					</td>
+				</tr>
+
+				<tr align="center">
+					<td class='center' style='font: 140px Arial, sans-serif;''>G</td>
+				<td align=' center'>
+						<img src='../images/G.png'>
+					</td>
+					<td>
+						<textarea id='G_input_text' rows='1' cols='2' style='font: 140px Arial, sans-serif;' required
+							onkeyup="checkLetterEntry('G_input_text','G')">
+                    </textarea>
+					</td>
+				</tr>
+
+				<tr align="center">
+					<td class='center' style='font: 140px Arial, sans-serif;''>H</td>
+				<td align=' center'>
+						<img src='../images/H.png'>
+					</td>
+					<td>
+						<textarea id='H_input_text' rows='1' cols='2' style='font: 140px Arial, sans-serif;' required
+							onkeyup="checkLetterEntry('H_input_text','H')">
+                    </textarea>
+					</td>
+				</tr>
+
+				<tr align="center">
+					<td class='center' style='font: 140px Arial, sans-serif;''>I</td>
+				<td align=' center'>
+						<img src='../images/I.png'>
+					</td>
+					<td>
+						<textarea id='I_input_text' rows='1' cols='2' style='font: 140px Arial, sans-serif;' required
+							onkeyup="checkLetterEntry('I_input_text','I')">
+                    </textarea>
+					</td>
+				</tr>
+
+				<tr align="center">
+					<td class='center' style='font: 140px Arial, sans-serif;''>J</td>
+				<td align=' center'>
+						<img src='../images/J.png'>
+					</td>
+					<td>
+						<textarea id='J_input_text' rows='1' cols='2' style='font: 140px Arial, sans-serif;' required
+							onkeyup="checkLetterEntry('J_input_text','J')">
+                    </textarea>
+					</td>
+				</tr>
+
+				<tr align="center">
+					<td class='center' style='font: 140px Arial, sans-serif;''>K</td>
+				<td align=' center'>
+						<img src='../images/K.png'>
+					</td>
+					<td>
+						<textarea id='K_input_text' rows='1' cols='2' style='font: 140px Arial, sans-serif;' required
+							onkeyup="checkLetterEntry('K_input_text','K')">
+                    </textarea>
+					</td>
+				</tr>
+
+				<tr align="center">
+					<td class='center' style='font: 140px Arial, sans-serif;''>L</td>
+				<td align=' center'>
+						<img src='../images/L.png'>
+					</td>
+					<td>
+						<textarea id='L_input_text' rows='1' cols='2' style='font: 140px Arial, sans-serif;' required
+							onkeyup="checkLetterEntry('L_input_text','L')">
+                    </textarea>
+					</td>
+				</tr>
+
+				<tr align="center">
+					<td class='center' style='font: 140px Arial, sans-serif;''>M</td>
+				<td align=' center'>
+						<img src='../images/M.png'>
+					</td>
+					<td>
+						<textarea id='M_input_text' rows='1' cols='2' style='font: 140px Arial, sans-serif;' required
+							onkeyup="checkLetterEntry('M_input_text','M')">
+                    </textarea>
+					</td>
+				</tr>
+
+				<tr align="center">
+					<td class='center' style='font: 140px Arial, sans-serif;''>N</td>
+				<td align=' center'>
+						<img src='../images/N.png'>
+					</td>
+					<td>
+						<textarea id='N_input_text' rows='1' cols='2' style='font: 140px Arial, sans-serif;' required
+							onkeyup="checkLetterEntry('N_input_text','N')">
+                    </textarea>
+					</td>
+				</tr>
+
+				<tr align="center">
+					<td class='center' style='font: 140px Arial, sans-serif;''>O</td>
+				<td align=' center'>
+						<img src='../images/O.png'>
+					</td>
+					<td>
+						<textarea id='O_input_text' rows='1' cols='2' style='font: 140px Arial, sans-serif;' required
+							onkeyup="checkLetterEntry('O_input_text','O')">
+                    </textarea>
+					</td>
+				</tr>
+
+				<tr align="center">
+					<td class='center' style='font: 140px Arial, sans-serif;''>P</td>
+				<td align=' center'>
+						<img src='../images/P.png'>
+					</td>
+					<td>
+						<textarea id='P_input_text' rows='1' cols='2' style='font: 140px Arial, sans-serif;' required
+							onkeyup="checkLetterEntry('P_input_text','P')">
+                    </textarea>
+					</td>
+				</tr>
+
+				<tr align="center">
+					<td class='center' style='font: 140px Arial, sans-serif;''>Q</td>
+				<td align=' center'>
+						<img src='../images/Q.png'>
+					</td>
+					<td>
+						<textarea id='Q_input_text' rows='1' cols='2' style='font: 140px Arial, sans-serif;' required
+							onkeyup="checkLetterEntry('Q_input_text','Q')">
+                    </textarea>
+					</td>
+				</tr>
+
+				<tr align="center">
+					<td class='center' style='font: 140px Arial, sans-serif;''>R</td>
+				<td align=' center'>
+						<img src='../images/R.png'>
+					</td>
+					<td>
+						<textarea id='R_input_text' rows='1' cols='2' style='font: 140px Arial, sans-serif;' required
+							onkeyup="checkLetterEntry('R_input_text','R')">
+                    </textarea>
+					</td>
+				</tr>
+
+				<tr align="center">
+					<td class='center' style='font: 140px Arial, sans-serif;''>S</td>
+				<td align=' center'>
+						<img src='../images/S.png'>
+					</td>
+					<td>
+						<textarea id='S_input_text' rows='1' cols='2' style='font: 140px Arial, sans-serif;' required
+							onkeyup="checkLetterEntry('S_input_text','S')">
+                    </textarea>
+					</td>
+				</tr>
+
+				<tr align="center">
+					<td class='center' style='font: 140px Arial, sans-serif;''>T</td>
+				<td align=' center'>
+						<img src='../images/T.png'>
+					</td>
+					<td>
+						<textarea id='T_input_text' rows='1' cols='2' style='font: 140px Arial, sans-serif;' required
+							onkeyup="checkLetterEntry('T_input_text','T')">
+                    </textarea>
+					</td>
+				</tr>
+
+				<tr align="center">
+					<td class='center' style='font: 140px Arial, sans-serif;''>U</td>
+				<td align=' center'>
+						<img src='../images/U.png'>
+					</td>
+					<td>
+						<textarea id='U_input_text' rows='1' cols='2' style='font: 140px Arial, sans-serif;' required
+							onkeyup="checkLetterEntry('U_input_text','U')">
+                    </textarea>
+					</td>
+				</tr>
+
+				<tr align="center">
+					<td class='center' style='font: 140px Arial, sans-serif;''>V</td>
+				<td align=' center'>
+						<img src='../images/V.png'>
+					</td>
+					<td>
+						<textarea id='V_input_text' rows='1' cols='2' style='font: 140px Arial, sans-serif;' required
+							onkeyup="checkLetterEntry('V_input_text','V')">
+                    </textarea>
+					</td>
+				</tr>
+
+				<tr align="center">
+					<td class='center' style='font: 140px Arial, sans-serif;''>W</td>
+				<td align=' center'>
+						<img src='../images/W.png'>
+					</td>
+					<td>
+						<textarea id='W_input_text' rows='1' cols='2' style='font: 140px Arial, sans-serif;' required
+							onkeyup="checkLetterEntry('W_input_text','W')">
+                    </textarea>
+					</td>
+				</tr>
+
+				<tr align="center">
+					<td style='font: 140px Arial, sans-serif;''>X</td>
+				<td>
+						<img src=' ../images/X.png'>
+					</td>
+					<td>
+						<textarea id='X_input_text' rows='1' cols='2' style='font: 140px Arial, sans-serif;' required
+							onkeyup="checkLetterEntry('X_input_text','X')">
+                    </textarea>
+					</td>
+				</tr>
+				<tr align="center">
+					<td style='font: 140px Arial, sans-serif;''>Y</td>
+					 <td>
+						 <img src="../images/Y.png">
+					 </td>
+					 <td>
+						 <textarea id=' Y_input_text' rows='1' cols='2' style='font: 140px Arial, sans-serif;' required
+						onkeyup="checkLetterEntry('Y_input_text','Y')">
+						</textarea>
+					</td>
+				</tr>
+				<tr align="center">
+					<td style='font: 140px Arial, sans-serif;''>Z</td>
+					 <td>
+						 <img src="../images/Z.png">
+					 </td>
+					 <td>
+						 <textarea id=' Z_input_text' rows='1' cols='2' style='font: 140px Arial, sans-serif;' required
+						onkeyup="checkLetterEntry('Z_input_text','Z')">
+						</textarea>
+					</td>
+				</tr>
+
+			</table>
+		</div>
+		<br>
+		<input type="button" id="submitButton" value="Submit" onclick="submitAlphaForm(this)" />
+		<br><br>
+	</form>
+
+	<p style="font-size:x-large;">
+		<!-- video link requirment-->
+		<b>Here is a video link for the Alphabets for little Kiddos:</b> <a
+			href="https://www.youtube.com/watch?v=ccEpTTZW34g" target="_blank">
+			<img border="0" alt="Alphabets video" width="100" height="100">
+		</a>
+	</p>
+
+</body>
+
+</html>
+
+

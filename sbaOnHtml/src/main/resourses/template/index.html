@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../static/styles/styles.css">
+	<title>Welcome to Kids Learning website</title>
+</head>
+
+<body style="background-image:url('../images/website_background_page.jpg')">
+	<header>
+		<h1>Welcome to Kids Learning website</h1>
+	</header>
+
+	<nav id=" main-nav">
+		<ul>
+			<li><a href="index.html">Home</a></li>
+		</ul>
+	</nav>
+
+	<main>
+		<section class="login-section">
+			<h2>Login</h2>
+			<!--use of form-->
+			<form action="alphabets.html" style="text-align: left;" onsubmit="return validateEmail();">
+				<br><br>
+
+				<label for="title">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Title:&nbsp;&nbsp;&nbsp;</label>
+				<select id="title" name="title" required>
+
+					<!--requirment of dropdown functionality-->
+					<option value="Mr.">Mr.</option>
+					<option value="Mrs.">Mrs.</option>
+					<option value="Miss">Miss</option>
+				</select>
+				<br><br>
+				<label for="firstname">First Name:</label>
+				<input type="text" id="firstname" name="firstname" required>
+				<br><br>
+				<label for="username">Username:</label>
+				<input type="text" id="username" name="username" required>
+				<br><br>
+				<label for="email">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Email:</label>
+				<input type="email" id="email" name="email" required>
+				<br><br>
+				<label for="password">Password:</label>
+				<input type="password" id="password" name="password" required>
+				<br><br>
+				<div style="width: 100%;box-align: center; align-content: center;text-align: center;">
+					<input type="submit" value="Login">
+				</div>
+				<br><br>
+			</form>
+		</section>
+	</main>
+
+	<script src="../static/script/script.js"></script>
+</body>
+
+</html>
