@@ -15,17 +15,28 @@ Welcome to Kids Learning website. Learn and practice the Alphabates, Number for 
 
 ### Code Description
 
-+Having three html pages
+Having three html pages
+
 Used different html tags
+
 Used html tables for Alphabets
+
 Implement two html forms one on login.html and other one on alphabet.html
+
 Dropped Down Menu on login page
+
 Used web( fonts  'Arial', sans-serif;)
+
 Used different types of content in the form of text, images, videos, and GIFs
+
 Used regex validation
+
  Used Inline, internal, and external styling
+ 
  Used  different CSS selectors
+ 
 External scripts
+
 Used variables, if statements, loops,  functions/callbacks, and events.
 
 
