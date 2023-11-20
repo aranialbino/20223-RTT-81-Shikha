@@ -5,10 +5,10 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.rani</groupId>
-  <artifactId>sbaOnHtml</artifactId>
+  <artifactId>KidsLearningWebsite</artifactId>
   <version>0.0.1-SNAPSHOT</version>
 
-  <name>sbaOnHtml</name>
+  <name>KidsLearningWebsite</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
